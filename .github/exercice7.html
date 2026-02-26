@@ -19,14 +19,13 @@
       let rayon = prompt("Entrez le rayon du cercle (en cm) :");
       rayon = Number(rayon);
 
-     
       let perimetre = 2 * PI * rayon;
       let surface = PI * rayon * rayon;
 
       
       document.getElementById("rayon").innerHTML =
         `Rayon : ${rayon} cm`;
-        
+
 
       document.getElementById("perimetre").innerHTML =
         `Périmètre : ${perimetre.toFixed(2)} cm`;
